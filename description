@@ -1,0 +1,6 @@
+The provided code is a basic implementation of a web server using Winsock in C++. It creates a socket, binds
+it to a specified address (IP and port), and listens for incoming client connections. Upon accepting a client
+request, it reads the request and performs a sorting operation using the merge sort algorithm on a predefined set of numbers. 
+The sorted numbers, along with the original input numbers, are then formatted into an HTML response and sent back to the client.
+The HTML response includes a title, a header displaying the sorted numbers, and an unordered list showing both the input and sorted numbers.
+The server continues to listen for new client requests in an infinite loop until it is terminated.
